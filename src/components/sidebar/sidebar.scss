@@ -1,0 +1,107 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  .top {
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid rgb(240, 227, 227);
+    border-bottom: none;
+    .logo {
+      font-size:70px;
+      font-weight: bold;
+      color: #f2f1f7;
+      
+    }
+  .or{
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+    h2{
+      color: rgb(87, 85, 85);
+    }
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+  }
+.hey{
+  border: 1px solid rgb(240, 227, 227);
+  border-bottom: none;
+}
+
+  .center {
+    padding-left: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .title {
+        font-size: 10px;
+        font-weight: bold;
+        color: #999;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding:20px;
+        cursor: pointer;
+      
+
+       
+
+        .icon {
+          font-size: 18px;
+          color: #7451f8;
+        }
+
+        span{
+            font-size: 15px;
+            font-weight: 600;
+            color: #888;
+            margin-left: 10px;
+            &:hover {
+              color: rgb(49, 0, 128);
+              font-weight: bold;
+            }
+        }
+      }
+    }
+  }
+
+  .bottom{
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      .colorOption{
+          width: 20px;
+          height: 20px;
+          border-radius: 5px;
+          border: 1px solid #7451f8;
+          cursor: pointer;
+          margin: 5px;
+
+          &:nth-child(1){
+              background-color: whitesmoke;
+          }
+          &:nth-child(2){
+              background-color: #333;
+          }
+          &:nth-child(3){
+              background-color: darkblue;
+          }
+      }
+  }
+}
